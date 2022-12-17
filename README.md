@@ -31,8 +31,6 @@ If a user login to a premium account (due to the limitation of the available API
 ![Authenticated app demonstration](https://github.com/JL978/spotify-clone-client/blob/master/demo/Authed.gif)
 *Authenticated app demonstration*
 
-![Remote player demonstration](https://github.com/JL978/spotify-clone-client/blob/master/demo/RemotePlay.gif)
-*Remote player demonstration*
 
 
 ## **3. Input / Output**
@@ -52,11 +50,12 @@ The hooks was named useInfiScroll and useTokenScroll, they are both effectively 
 Another interesting feature of this app is the live search feature where search results are updated as the user type into the search box. In doing this, the app is making a new request to the API everytime a new letter is entered. However, sometimes typing can be a faster than the request is able to finish and the request may become stale as the user type. Therefore, being able to cancel the request on the fly is needed.  
 
 ## **4. Live link**
-Link: www.FacialExpressionRecognition.com
+Link: https://expo-spotify.vercel.app
 
 
 ## **5. Screenshot of the Interface**
-<img src="https://user-images.githubusercontent.com/7460892/207004468-57fc5284-f747-4b93-9bb7-2ff7f1032837.png" width="50%" height="50%">
+![Remote player demonstration](https://github.com/JL978/spotify-clone-client/blob/master/demo/RemotePlay.gif)
+*Remote player demonstration*
 
 
 
@@ -68,49 +67,6 @@ Link: www.FacialExpressionRecognition.com
 
 
 
-
-
-
-
-# 
-A front-end clone project of the Spotify web player. The project was created using the create-react-app CLI. The app is meant to work in conjunction with an authorization/authenication server found at this [repo](https://github.com/JL978/spotify-clone-server).
-
-## Table of Contents
-- [Description](#description)
-- [Motivation](#motivation)
-- [Tech/Framework Used](#techframework-used)
-- [Installation](#installation)
-- [Architechture](#architecture)
-
-## Description
-
-
-## Motivation
-
-
-
-## Installation
-This project requires [node](http://nodejs.org) and [npm](https://npmjs.com) installed globally. 
-
-Clone the repository to a directory of your choosing
-
-```sh
-$ git clone https://github.com/JL978/spotify-clone-client.git
-```
-Navigate into spotify-clone-client and install the necessary packages
-
-```sh
-$ npm install 
-```
-To start up the app locally
-
-```sh
-$ npm start
-```
-
-Additionally, this project also requires you to clone and run the server code from this [repo](https://github.com/JL978/spotify-clone-server) to work properly.
-
-## Architecture
 
 
 
